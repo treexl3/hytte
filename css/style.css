@@ -1368,7 +1368,7 @@ body::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100%;
+  height: 100%;
 }
 
 .section-9__container {
@@ -3215,10 +3215,6 @@ body::after {
     font-size: 1.25rem;
   }
 
-  .section-9__wrapper {
-    min-height: 90%;
-  }
-
   .logo-house__icon::after,
   .logo-house__icon::before,
   .logo-house__icon span::after,
@@ -3238,10 +3234,6 @@ body::after {
     -webkit-transition: height 0.2s;
     -o-transition: height 0.2s;
     transition: height 0.2s;
-  }
-
-  .section-9__wrapper {
-    min-height: 93%;
   }
 
   .doubts__logo {
