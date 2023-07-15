@@ -1365,14 +1365,12 @@ body::after {
 
 .section-9__wrapper {
   position: relative;
-  min-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .section-9__container {
-  min-height: 100%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
