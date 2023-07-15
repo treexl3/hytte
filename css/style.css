@@ -91,7 +91,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Gilroy";
+  font-family: "Gilroy", sans-serif;
   font-size: inherit;
 }
 
@@ -3027,11 +3027,11 @@ body::after {
   }
 
   .section-4__container {
-    padding-top: 4.375rem;
+    padding-top: 7.5rem;
   }
 
   .section-4__container {
-    padding-bottom: 3.75rem;
+    padding-bottom: 7.5rem;
   }
 
   .section-4__content {
@@ -3043,11 +3043,11 @@ body::after {
   }
 
   .section-5__container {
-    padding-top: 4.375rem;
+    padding-top: 7.5rem;
   }
 
   .section-5__container {
-    padding-bottom: 3.75rem;
+    padding-bottom: 7.5rem;
   }
 
   .section-5__content {
@@ -3055,11 +3055,11 @@ body::after {
   }
 
   .section-6__container {
-    padding-top: 4.375rem;
+    padding-top: 7.5rem;
   }
 
   .section-6__container {
-    padding-bottom: 3.75rem;
+    padding-bottom: 7.5rem;
   }
 
   .section-6__content {
@@ -3067,11 +3067,11 @@ body::after {
   }
 
   .section-7__container {
-    padding-top: 4.375rem;
+    padding-top: 7.5rem;
   }
 
   .section-7__container {
-    padding-bottom: 3.75rem;
+    padding-bottom: 7.5rem;
   }
 
   .section-7__content {
@@ -3683,27 +3683,27 @@ body::after {
     }
 }
 
-@supports (padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem )) {
+@supports (padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-4__container {
-      padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem );
+      padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem );
     }
 }
 
-@supports not (padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem )) {
+@supports not (padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-4__container {
-      padding-top: calc(4.375rem + 5.625 * (100vw - 20rem) / 220);
+      padding-top: calc(7.5rem + 2.5 * (100vw - 20rem) / 220);
     }
 }
 
-@supports (padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem )) {
+@supports (padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-4__container {
-      padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem );
+      padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem )) {
+@supports not (padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-4__container {
-      padding-bottom: calc(3.75rem + 6.25 * (100vw - 20rem) / 220);
+      padding-bottom: calc(7.5rem + 2.5 * (100vw - 20rem) / 220);
     }
 }
 
@@ -3731,27 +3731,27 @@ body::after {
     }
 }
 
-@supports (padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem )) {
+@supports (padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-5__container {
-      padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem );
+      padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem );
     }
 }
 
-@supports not (padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem )) {
+@supports not (padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-5__container {
-      padding-top: calc(4.375rem + 5.625 * (100vw - 20rem) / 220);
+      padding-top: calc(7.5rem + 2.5 * (100vw - 20rem) / 220);
     }
 }
 
-@supports (padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem )) {
+@supports (padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-5__container {
-      padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem );
+      padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem )) {
+@supports not (padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-5__container {
-      padding-bottom: calc(3.75rem + 6.25 * (100vw - 20rem) / 220);
+      padding-bottom: calc(7.5rem + 2.5 * (100vw - 20rem) / 220);
     }
 }
 
@@ -3767,27 +3767,27 @@ body::after {
     }
 }
 
-@supports (padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem )) {
+@supports (padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-6__container {
-      padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem );
+      padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem );
     }
 }
 
-@supports not (padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem )) {
+@supports not (padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-6__container {
-      padding-top: calc(4.375rem + 5.625 * (100vw - 20rem) / 220);
+      padding-top: calc(7.5rem + 2.5 * (100vw - 20rem) / 220);
     }
 }
 
-@supports (padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem )) {
+@supports (padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-6__container {
-      padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem );
+      padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem )) {
+@supports not (padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-6__container {
-      padding-bottom: calc(3.75rem + 6.25 * (100vw - 20rem) / 220);
+      padding-bottom: calc(7.5rem + 2.5 * (100vw - 20rem) / 220);
     }
 }
 
@@ -3803,27 +3803,27 @@ body::after {
     }
 }
 
-@supports (padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem )) {
+@supports (padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-7__container {
-      padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem );
+      padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem );
     }
 }
 
-@supports not (padding-top: clamp( 4.375rem , 3.8636363636rem  +  2.5568181818vw , 10rem )) {
+@supports not (padding-top: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-7__container {
-      padding-top: calc(4.375rem + 5.625 * (100vw - 20rem) / 220);
+      padding-top: calc(7.5rem + 2.5 * (100vw - 20rem) / 220);
     }
 }
 
-@supports (padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem )) {
+@supports (padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-7__container {
-      padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem );
+      padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 3.75rem , 3.1818181818rem  +  2.8409090909vw , 10rem )) {
+@supports not (padding-bottom: clamp( 7.5rem , 7.2727272727rem  +  1.1363636364vw , 10rem )) {
     .section-7__container {
-      padding-bottom: calc(3.75rem + 6.25 * (100vw - 20rem) / 220);
+      padding-bottom: calc(7.5rem + 2.5 * (100vw - 20rem) / 220);
     }
 }
 
