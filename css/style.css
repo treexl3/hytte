@@ -3216,7 +3216,7 @@ body::after {
   }
 
   .section-9__wrapper {
-    min-height: 95%;
+    min-height: 93%;
   }
 
   .logo-house__icon::after,
@@ -3238,6 +3238,10 @@ body::after {
     -webkit-transition: height 0.2s;
     -o-transition: height 0.2s;
     transition: height 0.2s;
+  }
+
+  .section-9__wrapper {
+    min-height: 90%;
   }
 
   .doubts__logo {
