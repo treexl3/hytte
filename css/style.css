@@ -1048,25 +1048,25 @@ body::after {
 
 @-webkit-keyframes arrows {
   0% {
-    -webkit-transform: translate(0, 0) rotate(0.02deg);
-            transform: translate(0, 0) rotate(0.02deg);
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   100% {
-    -webkit-transform: translate(0, 20%) rotate(0.02deg);
-            transform: translate(0, 20%) rotate(0.02deg);
+    -webkit-transform: translate(0, 20%);
+            transform: translate(0, 20%);
   }
 }
 
 @keyframes arrows {
   0% {
-    -webkit-transform: translate(0, 0) rotate(0.02deg);
-            transform: translate(0, 0) rotate(0.02deg);
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   100% {
-    -webkit-transform: translate(0, 20%) rotate(0.02deg);
-            transform: translate(0, 20%) rotate(0.02deg);
+    -webkit-transform: translate(0, 20%);
+            transform: translate(0, 20%);
   }
 }
 
@@ -1865,6 +1865,7 @@ body::after {
 .logo-house__icon {
   position: relative;
   opacity: 0;
+  visibility: hidden;
 }
 
 .logo-house__icon::after,
@@ -1918,8 +1919,6 @@ body::after {
 .fp-section-1.fp-down .logo-house__icon::before,
 .fp-section-1.fp-down .logo-house__icon span::after,
 .fp-section-1.fp-down .logo-house__icon span::before {
-  width: 0.0695652174em;
-  height: 0.5em;
   -webkit-transform: rotate(0);
       -ms-transform: rotate(0);
           transform: rotate(0);
@@ -1964,9 +1963,10 @@ body::after {
 
 .fp-section-1 .logo-house__icon {
   opacity: 1;
-  -webkit-transition: opacity 1.5s 3.5s;
-  -o-transition: opacity 1.5s 3.5s;
-  transition: opacity 1.5s 3.5s;
+  visibility: visible;
+  -webkit-transition: opacity 1.5s 3.5s, visibility 1.5s 3.5s;
+  -o-transition: opacity 1.5s 3.5s, visibility 1.5s 3.5s;
+  transition: opacity 1.5s 3.5s, visibility 1.5s 3.5s;
 }
 
 .fp-section-0 .logo-house__icon,
@@ -1984,7 +1984,6 @@ body::after {
     height: 0.6086956522em;
     bottom: 0.3482608696em;
     left: 0.052173913em;
-    width: 0.0869565217em;
     background-color: #d8da00;
   }
 }
@@ -1996,7 +1995,6 @@ body::after {
     height: 0.6086956522em;
     bottom: 0.3482608696em;
     left: 0.052173913em;
-    width: 0.0869565217em;
     background-color: #d8da00;
   }
 }
@@ -2008,7 +2006,6 @@ body::after {
     height: 0.6130434783em;
     bottom: 0.6782608696em;
     left: 0.5608695652em;
-    width: 0.0869565217em;
     background-color: #d8da00;
   }
 }
@@ -2020,7 +2017,6 @@ body::after {
     height: 0.6130434783em;
     bottom: 0.6782608696em;
     left: 0.5608695652em;
-    width: 0.0869565217em;
     background-color: #d8da00;
   }
 }
@@ -2032,7 +2028,6 @@ body::after {
     height: 0.6130434783em;
     top: 0.5739130435em;
     left: 0.3869565217em;
-    width: 0.0869565217em;
     background-color: #d8da00;
   }
 }
@@ -2044,7 +2039,6 @@ body::after {
     height: 0.6130434783em;
     top: 0.5739130435em;
     left: 0.3869565217em;
-    width: 0.0869565217em;
     background-color: #d8da00;
   }
 }
@@ -2056,7 +2050,6 @@ body::after {
     height: 0.6086956522em;
     top: 0.2226086957em;
     left: 0.8695652174em;
-    width: 0.0869565217em;
     background-color: #d8da00;
   }
 }
@@ -2068,7 +2061,6 @@ body::after {
     height: 0.6086956522em;
     top: 0.2226086957em;
     left: 0.8695652174em;
-    width: 0.0869565217em;
     background-color: #d8da00;
   }
 }
