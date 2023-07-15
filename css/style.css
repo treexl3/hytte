@@ -1553,7 +1553,7 @@ body::after {
 
 .next {
   position: absolute;
-  bottom: 2vh;
+  bottom: 5vh;
   left: 50%;
   z-index: 10;
   -webkit-transform: translate(-50%, 0);
@@ -3214,10 +3214,6 @@ body::after {
     font-size: 1.25rem;
   }
 
-  .next {
-    bottom: 1vh;
-  }
-
   .logo-house__icon::after,
   .logo-house__icon::before,
   .logo-house__icon span::after,
@@ -3240,7 +3236,7 @@ body::after {
   }
 
   .next {
-    bottom: 0.3vh;
+    bottom: 0.2vh;
   }
 
   .doubts__logo {
