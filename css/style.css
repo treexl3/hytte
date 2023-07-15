@@ -1365,6 +1365,7 @@ body::after {
 
 .section-9__wrapper {
   position: relative;
+  min-height: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
