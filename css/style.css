@@ -3236,7 +3236,7 @@ body::after {
   }
 
   .next {
-    bottom: 0.2vh;
+    bottom: 1vh;
   }
 
   .doubts__logo {
