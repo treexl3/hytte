@@ -1368,7 +1368,7 @@ body::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
+  min-height: 100%;
 }
 
 .section-9__container {
@@ -1393,7 +1393,6 @@ body::after {
 
 .section-9__spollers {
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
